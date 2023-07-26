@@ -1,0 +1,88 @@
+/* Reset some default styles */
+
+  /* index.html */
+
+  /* Basic styles for body, header, and footer */
+  body {
+    line-height: 1.5;
+  }
+
+  .hero {
+    /* background-color: #e01a1a; */
+    background-image: url('https://cdn.wallpapersafari.com/28/86/TRhiOt.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px 0;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #287e0e;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 600;
+  }
+  .btn:hover{
+    background: #13310a;
+    color: white;
+  }
+  
+  .featured-courses {
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  .featured-courses h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .course-card {
+    display: inline-block;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  .course-card:hover{
+    border: 2px solid #85a9d3;
+  }
+  .course-card img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .course-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .course-card p {
+    margin-bottom: 10px;
+  }
+
+  .content{
+    width: 500px;
+    border: solid #fff;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px #888888;
+  }
+  ul{
+    list-style: none;
+  }
+  .list::before{
+    content: "\00BB";
+  }
+  

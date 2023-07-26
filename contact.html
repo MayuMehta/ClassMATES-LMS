@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./contactstyle.css">
+  <title>Contact - ClassMATES</title>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/725/725308.png" type="image/x-icons">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header class="header">
+        
+    </header>
+  <main>
+    <section class="hero">
+      <h1>Contact Us</h1>
+    </section>
+
+    <section class="content">
+      <h2>Get in touch with us</h2>
+      <p>Have a question or need assistance? Fill out the form below or reach out to us using the contact details provided.</p>
+
+      <form id="contact-form" method="POST" action="send_email.php">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+
+        <input type="submit" name="submit" id="submit" class="submit">
+      </form>
+
+      <div class="contact-details">
+        <h1>Contact Information</h1>
+        <p><strong>Email:</strong> <a href="mailto:mayushar8434@gmail.com">mayushar8434@gmail.com</a></p>
+        <p><strong>Phone:</strong> +91 7808111286</p>
+        <p><strong>Address:</strong> 12 Sohna Gurugaon India</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"></footer>
+  <script src="./script.js"></script>
+</body>
+</html>

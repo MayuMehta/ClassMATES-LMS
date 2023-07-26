@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration - ClassMATES</title>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/725/725308.png" type="image/x-icons">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      /* background-color: #130b0b; */
+      background-image: url('https://img.freepik.com/free-vector/classroom-mathematics-learning_107791-1354.jpg?w=2000');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: 100px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .textbox{
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    .submit {
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .submit:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>
+        <img src="./assets/classmates-logo.png" alt="ClassMATES"> <spam class="text-danger">Class</spam><span class="text-warning">MATES</span> Registration
+    </h2>
+    <form action="./register.php" method="post" class="mb-3">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" class="textbox" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" class="textbox" required>
+
+      <label for="mobile">Mobile No:</label>
+      <input type="number" id="mobile" name="mobile" class="textbox" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" class="textbox" required>
+
+      <label for="password">Confirm Password:</label>
+      <input type="password" id="confirm-password" name="confirm-password" class="textbox" required>
+
+      <label for="dob">DOB:</label>
+      <input type="date" id="dob" name="dob" class="textbox" required>
+
+      <label for="city">City:</label>
+      <input type="text" id="city" name="city" class="textbox" required>
+
+      <input type="submit" class="submit" value="register">
+    </form>
+    <span>Already Registered <a href="./login.html">LogIn</a></span><br>
+    <span> Back to <a href="./index.html">Home</a></span>
+  </div>
+</body>
+</html>
