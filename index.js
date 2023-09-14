@@ -54,7 +54,7 @@ app.post("/login", async (req, res)=>{
         const useremail = await Register.findOne({email:email});
 
         if(useremail.password === password){
-            return res.redirect('home.html')
+            return res.redirect('https://lmsclassmates.netlify.app/home.html')
         }else{
             res.send("Invalid user or password");
         }
