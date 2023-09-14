@@ -1,8 +1,4 @@
-/* Reset some default styles */
 
-  /* index.html */
-
-  /* Basic styles for body, header, and footer */
   body {
     line-height: 1.5;
   }
@@ -57,7 +53,7 @@
   }
   
   .course-card:hover{
-    border: 2px solid #85a9d3;
+    border: 1px solid #0a0b0c;
   }
   .course-card img {
     width: 100%;

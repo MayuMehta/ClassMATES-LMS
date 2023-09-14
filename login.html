@@ -14,6 +14,7 @@
       background-repeat: no-repeat;
       /* background-position: center; */
       background-size: cover;
+      min-height: 100vh;
     }
 
     .container {
@@ -59,13 +60,13 @@
       <h2><img src="./assets/classmates-logo.png" alt="ClassMATES"> 
         <spam class="text-danger">Class</spam><span class="text-warning">MATES</span> Login
       </h2>
-      <form class="my-3">
-        <input type="text" placeholder="Username" required>
-        <input type="password" placeholder="Password" required>
+      <form class="my-3" action="/login" method="POST">
+        <input type="text" placeholder="Username or email" required name="email">
+        <input type="password" placeholder="Password" required name="password">
         <button type="submit">Login</button>
       </form>
       <span>New User <a href="./register.html">Create an account.</a></span><br>
-      <span> Back to <a href="./index.html">Home</a></span>
+      <span> Back to <a href="./index.html">Home</a> page</span>
   </div>
 </body>
 </html>

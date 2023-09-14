@@ -11,3 +11,4 @@ fetch('/footer.html')
 .then(data=>{
     foot.innerHTML=data
 })
+
